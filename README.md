@@ -1,5 +1,5 @@
 # Tag a Friend 
-![700+ Active Installs](https://img.shields.io/badge/Active%20Installs-700+-green)  ![enter image description here](https://img.shields.io/badge/Contributors-2-blue)
+![enter image description here](https://img.shields.io/badge/version-1.0-orange)  ![enter image description here](https://img.shields.io/badge/Contributors-2-blue)
 
 Tag a Friend is an interesting Wordpress Woocommerce plugins which lets your users, customers to invite or recommend a product to their friends just by entering their email without leaving your store.
 
