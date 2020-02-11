@@ -33,5 +33,4 @@ class htaf_template_libraries {
     }
 
 
-
 }
