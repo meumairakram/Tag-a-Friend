@@ -5,7 +5,7 @@ Tag a Friend is an interesting Wordpress Woocommerce plugins which lets your use
 
 It allows you to add a button "Tag a Friend" to your product pages which then lead to a popup, where they can add the necessary details and an email will be sent to the invited person.
 
-The plugin also let's you track the click rate of those emails sent, so you can find out who visited the product invites triggered by your customers.
+The plugin also let's you track the click rate of those emails sent, so you can find out who visited the product invites triggered by your customers with nice graphs.
 
 
 ## Installation and Usage Guide
