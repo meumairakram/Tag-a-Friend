@@ -23,6 +23,8 @@ define('PLUGIN_DIR',dirname(__FILE__));
 register_activation_hook(__FILE__,'htaf_register_activation_hook');
 
 
+
+
 // Include Essential Classes
 require_once(PLUGIN_DIR.'/inc/classes/htaf_template_library.php');
 
@@ -62,3 +64,15 @@ class htaf_init_plugin {
 
 // Initializing Plugin object
 new htaf_init_plugin();
+
+
+
+// importing REDUX
+if ( !class_exists( 'ReduxFramework' ) && file_exists( dirname( __FILE__ ) . '/redux/ReduxCore/framework.php' ) ) {
+    require_once( dirname( __FILE__ ) . '/redux/ReduxCore/framework.php' );
+}
+
+
+if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/redux/sample/sample-config.php' ) ) {
+    require_once( dirname( __FILE__ ) . '/inc/classes/htaf_admin_options.php' );
+}
